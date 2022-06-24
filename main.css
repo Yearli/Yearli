@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fascinate&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+}
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.logo {
+  font-size: 200px;
+}
+#coming-soon {
+  font-size: 50px;
+  font-family: "Fascinate", cursive;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  font-family: comic-sans;
+  font-weight: 700;
+}
+img {
+  width: 200px;
+  heoght: 70px;
+}
