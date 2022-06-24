@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yearli</title>
     <link rel="stylesheet" href="main.css">
+    
     <link rel="icon" href="assets/yearli.svg" type="image/icon type">
 </head>
 
@@ -28,11 +29,29 @@
                     <div class="contact-us">
                         Curious
                         <p>Write to us...</p>
+                        <div class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="from_name" name="from_name" class="form-control" placeholder="Enter your name" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="emailadd" name="emailadd" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Add your message" rows="4" required="required"></textarea>
+                            </div>
+                            <input type="submit" id="button" class="button" value="Send Message">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('mBipZTMrj38eTPPYZ')
+    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
