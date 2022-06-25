@@ -6,7 +6,7 @@
   font-family: "Dancing Script", cursive;
 }
 body {
-  background-color: black;
+  background-color: #101010;
   width: 100vw;
   height: 100vh;
   color: white;
@@ -93,12 +93,12 @@ a {
 }
 
 .flip-card-back {
-  background-color: black;
+  background-color: #101010;
   transform: rotateY(-180deg);
 }
 
 form {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -113,4 +113,34 @@ input {
 }
 .contact-us p {
   font-size: 20px;
+}
+.form-group input::placeholder, .form-group textarea::placeholder {
+  color: rgba(158, 158, 158, 0.562);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.form-group {
+  margin-bottom: 1.3rem;
+}
+form{
+  display: block;
+  align-items: center;
+  align-self: center;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: #101010;
+  outline: white;
+  outline-offset: 2px;
+  border: 10px white;
+  color: white;
+}
+
+.button{
+  cursor: pointer;
+  background-color: white;
+  outline: none;
+  color:#101010;
+  transition: 0.2s ease-in;
 }
