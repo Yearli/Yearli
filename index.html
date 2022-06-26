@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yearli</title>
     <link rel="stylesheet" href="main.css">
-    
+
     <link rel="icon" href="assets/yearli.svg" type="image/icon type">
 </head>
 
@@ -23,32 +23,21 @@
             <div class="flip-card-inner">
                 <div class="flip-card-front">
                     <img class="lurking-cat" src="assets/lurking-cat.svg" alt="under-construction">
-                    <p>Keep Lurking</p>
+                    <p>Coming Soon</p>
                 </div>
                 <div class="flip-card-back">
                     <div class="contact-us">
-                        Curious
-                        <p>Write to us...</p>
-                        <form id="form" >
-                            <div class="field">
-                              <input type="text" name="from_name" id="from_name" placeholder="Enter Your Name" class="form-group">
-                            </div>
-                            <div class="field">
-                              <input type="text" name="emailadd" id="emailadd" placeholder="Enter Your Email"  class="form-group">
-                            </div>
-                              <textarea rows="4" type="text" name="message" id="message" placeholder="Enter Message"  class="form-group"></textarea>
-                            <input type="submit" id="button" value="Send Email" >
-                          </form>
+                        Get in touch
+                        <div class="sm-links" onclick="mail()">
+                            <img src="assets/gmail.png" alt="email" width="128px" height="128px">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        emailjs.init(process.env.EMAIL_JS_UID)
-    </script>
     <script src="./script.js"></script>
 </body>
 
